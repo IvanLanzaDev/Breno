@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Breno</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="imgs/fav/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="imgs/fav/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="imgs/fav/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="imgs/fav/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="imgs/fav/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="imgs/fav/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="imgs/fav/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="imgs/fav/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="imgs/fav/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="imgs/fav/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="imgs/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="imgs/fav/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="imgs/fav/favicon-16x16.png">
+<link rel="manifest" href="imgs/fav/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="imgs/fav/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+  </head>
+  <body class="bg-boy">
+
+    <?php include("connect.class.php"); ?>
+    <?php include("functions.class.php"); ?>
+
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-12 mt-5">
+          <img src="imgs/breno.jpg" class="img-fluid rounded-circle col-8 img-breno">
+
+          <form method="post" action="" class="mt-3">
+            <div class="form-group">
+              <label class="text-color"><big>Breno esta?</big></label>
+              <select class="form-control" name="breno_status">
+                <option selected="" value="1">Dormindo</option>
+                <option value="2">Acordado</option>
+                <option value="3">Mamando</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-success btn-block" name="btn_status">Alterar Status</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
